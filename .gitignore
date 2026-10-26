@@ -1,0 +1,28 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local datasets, snapshots and generated output
+/validatietool/data/
+/tmp/
+/fase4/
+*.sqlite
+*.sqlite-*
+*.db
+*.log
+
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
